@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Light.ttf);
+}
+@font-face {
+    font-family: CrimsonText-bold;
+    src: url(CrimsonText-Bold.ttf);
+}
+    
+body {
+    font-family: Poppins;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+.primary {
+    color: #035951;
+} 
+.header {
+    font-size: 20pt;
+    font-family: CrimsonText;
+    color: #A67153;
+}
+hr {
+    border-top: 4px solid #A67153;
+    border-radius: 4px;
+    width: 50px;
+    float: left;
+    margin: -15px 0;
+}
+.small-header {
+    font-family: CrimsonText-bold;
+    font-size: 20px;
+}
+
+/* hr {
+    color: #a67153;
+    width: 50px;
+    height: 7px;
+    align: left;
+} */
+.input {
+    width: 40%;
+    height: 18px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+#map {
+    width: 100%;
+    margin: 50px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px grey;
+    float: center;
+}
+#details {
+    margin: 0 70px;
+}
+.i {
+    
+    margin-right: 10px;
+}
+td {
+    padding: 5px 0;
+    margin: 10px;
+    text-align: left;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 20px 0;
+}
+.address {
+    padding: 0 100px 0 0;
+}
+.cd {
+    line-height: 40px;
+}
+.message {
+    padding: 30px;
+    border-radius: 4px;
+    margin: 20px 0;
+    height: 170px;
+    resize: none;
+    width: 90%;
+    outline: none;
+}
+.button {
+    background-color: #035951;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    margin: 20px 0;
+    padding: 5px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
